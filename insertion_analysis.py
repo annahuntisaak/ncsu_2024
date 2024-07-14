@@ -194,7 +194,7 @@ def compare_hypothesized_genes(original_genome_filepath, insert_genome_filepath)
             lost_count += 1
 
     new_hypothesized = hypothesized_insert
-    return lost_hypothesized, new_hypothesized, located_count
+    return lost_hypothesized, new_hypothesized
 
 
 #function that takes as input 2 filepaths to text files with genomes we want to compare
