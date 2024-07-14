@@ -271,7 +271,7 @@ def find_multiple_copies(all_gene_key_data):
         current_gene_name = current_gene[5]
         
         #if a gene name already exists as key we know previous iteration captured instances of that gene, can skip past it
-        if current_gene_name in multiple_copies:
+        if core_name(current_gene_name) in multiple_copies:
             fully_checked += 1
             continue
         #if gene name hasn't shown up before, check all other genes to see if there are matches with it
