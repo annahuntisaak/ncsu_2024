@@ -221,9 +221,6 @@ def compare_known_genes(original_genome_filepath, insert_genome_filepath):
         for possible_match in insert_genes:
             if gene[5] == possible_match[5]:
                 found = True
-
-                original_genes_counter += 1
-
                 #removing this element from the altered genome's gene list
                 insert_genes.remove(possible_match)
 
