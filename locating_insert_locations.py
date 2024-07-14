@@ -210,7 +210,7 @@ def find_possible_intervals(all_key_data, minimum_interval):
         #if the CDS are in same locus
         if all_key_data[position[0]][0] == all_key_data[position[1]][0]:
             #interval between them is just difference between second one's start - first one's end
-            size = all_key_data[position[1]][2] - all_key_data[position[0]][3]
+            size = all_key_data[position[1]][2] - all_key_data[position[0]][3] - 1
         
         positions_and_sizes.append([all_key_data[position[0]], all_key_data[position[1]], size])
     
