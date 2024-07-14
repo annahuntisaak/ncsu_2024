@@ -157,9 +157,6 @@ def create_CDS_list(prokka_filepath):
     return all_key_data
 
 
-all_key_data = create_CDS_list('/Users/annahuntisaak/Desktop/PreMiEr/E10.txt')
-
-
 
 
 #now want to find all relevant positions using the all_key_data list
